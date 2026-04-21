@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Kumar — Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════ NAV ═══════════════════════════════════ -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">[</span>HK<span class="logo-bracket">]</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"       class="nav-link active">Home</a></li>
+        <li><a href="#about"      class="nav-link">About</a></li>
+        <li><a href="#skills"     class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects"   class="nav-link">Projects</a></li>
+        <li><a href="#contact"    class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════ HERO ══════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span> Available for opportunities
+        </div>
+        <h1 class="hero-name">
+          <span class="hero-name-line reveal-up" style="--delay:0.1s">Harsh</span>
+          <span class="hero-name-line accent reveal-up" style="--delay:0.25s">Kumar</span>
+        </h1>
+        <p class="hero-title reveal-up" style="--delay:0.4s">
+          <span class="mono">//</span> Software Engineer &amp; Full-Stack Developer
+        </p>
+        <p class="hero-intro reveal-up" style="--delay:0.55s">
+          CS student passionate about building efficient, scalable, and user-friendly applications — combining full-stack development with AI to solve real-world problems.
+        </p>
+        <div class="hero-cta reveal-up" style="--delay:0.7s">
+          <a href="#" class="btn btn-primary">Download Resume</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-stats reveal-up" style="--delay:0.85s">
+          <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Projects</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">16wk</span><span class="stat-label">Internship</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Technologies</span></div>
+        </div>
+      </div>
+
+      <div class="hero-terminal reveal-up" style="--delay:0.5s">
+        <div class="terminal-bar">
+          <span class="t-dot red"></span>
+          <span class="t-dot yellow"></span>
+          <span class="t-dot green"></span>
+          <span class="t-title">portfolio.py</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-keyword">class</span> <span class="t-var">Developer</span>:</p>
+          <p>&nbsp;&nbsp;<span class="t-key">name</span> = <span class="t-str">"Harsh Kumar"</span></p>
+          <p>&nbsp;&nbsp;<span class="t-key">role</span> = <span class="t-str">"Software Engineer"</span></p>
+          <p>&nbsp;&nbsp;<span class="t-key">stack</span> = [<span class="t-str">"Python"</span>, <span class="t-str">"Java"</span>,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"React"</span>, <span class="t-str">"Django"</span>]</p>
+          <p>&nbsp;&nbsp;<span class="t-key">university</span> = <span class="t-str">"MUJ"</span></p>
+          <p>&nbsp;&nbsp;<span class="t-key">open_to_work</span> = <span class="t-bool">True</span></p>
+          <p>&nbsp;&nbsp;<span class="t-key">loves_ai</span> = <span class="t-bool">True</span></p>
+          <p class="t-blank">&nbsp;</p>
+          <p><span class="t-var">dev</span> = <span class="t-var">Developer</span>()<span class="cursor">█</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ ABOUT ═════════════════════════════════ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-label"><span class="mono">01 /</span> About</div>
+        <div class="about-grid">
+          <div class="about-image-wrap">
+            <div class="about-image-frame">
+              <div class="about-avatar">HK</div>
+              <div class="about-image-tag">
+                <span class="dot green-dot"></span> Open to opportunities
+              </div>
+            </div>
+          </div>
+          <div class="about-content">
+            <h2 class="section-heading">Building solutions that <span class="accent">make an impact.</span></h2>
+            <p class="about-body">
+              Hi, I'm Harsh Kumar — a Computer Science student and software developer passionate about building efficient, scalable, and user-friendly applications. I work with technologies like Python, Java, JavaScript, React, and Django, along with databases such as MySQL and MongoDB.
+            </p>
+            <p class="about-body">
+              I enjoy combining full-stack development with AI to solve real-world problems, and I'm always exploring new tools and technologies to improve my skills and create impactful solutions.
+            </p>
+
+            <div class="education-block">
+              <h3 class="sub-heading"><span class="mono">//</span> Education</h3>
+              <div class="edu-item">
+                <div class="edu-year">Current</div>
+                <div class="edu-detail">
+                  <strong>B.Tech — Computer &amp; Communication Engineering</strong>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ SKILLS ════════════════════════════════ -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-label"><span class="mono">02 /</span> Skills</div>
+        <h2 class="section-heading">My <span class="accent">tech stack</span></h2>
+        <div class="skills-grid">
+
+          <div class="skill-category">
+            <h3 class="skill-cat-label">Programming Languages</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-meta"><span>Python</span><span class="skill-pct">88%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>Java</span><span class="skill-pct">80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>JavaScript</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>HTML / CSS</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-label">Frameworks &amp; Libraries</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-meta"><span>React</span><span class="skill-pct">83%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="83"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>Django</span><span class="skill-pct">80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>CNN / TensorFlow</span><span class="skill-pct">72%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>REST APIs</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-label">Databases &amp; Tools</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-meta"><span>MySQL</span><span class="skill-pct">82%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>MongoDB</span><span class="skill-pct">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>Git / GitHub</span><span class="skill-pct">88%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-meta"><span>Gemini API</span><span class="skill-pct">70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tech-tags">
+          <span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span>
+          <span class="tag">React</span><span class="tag">Django</span><span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span><span class="tag">CNN</span><span class="tag">Gemini API</span>
+          <span class="tag">REST API</span><span class="tag">Git</span><span class="tag">HTML / CSS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════ EXPERIENCE ═════════════════════════════ -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-label"><span class="mono">03 /</span> Experience</div>
+        <h2 class="section-heading">Where I've <span class="accent">worked</span></h2>
+        <div class="exp-list">
+          <div class="exp-card">
+            <div class="exp-left">
+              <div class="exp-company">CodTech IT Solutions</div>
+              <div class="exp-duration">16 Weeks · Internship</div>
+            </div>
+            <div class="exp-right">
+              <div class="exp-role">Software Developer Intern</div>
+              <ul class="exp-bullets">
+                <li>Built and maintained web applications using Python, Django, JavaScript, and React across multiple project assignments.</li>
+                <li>Designed and integrated RESTful APIs with MySQL and MongoDB database backends.</li>
+                <li>Applied AI/ML concepts — including CNN-based image classification and Gemini API integration — in a live project environment.</li>
+                <li>Practiced industry workflows: Git version control, code reviews, and agile-style task management.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════ PROJECTS ════════════════════════════════ -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-label"><span class="mono">04 /</span> Projects</div>
+        <h2 class="section-heading">Things I've <span class="accent">built</span></h2>
+        <div class="projects-grid">
+
+          <article class="project-card featured">
+            <div class="project-num">01</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span>
+              </div>
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-desc">A responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and achievements. Features a clean UI, smooth navigation, and a structured layout designed for a seamless experience across all devices.</p>
+              <div class="project-links">
+                <a href="#" class="project-btn">Live Demo ↗</a>
+                <a href="https://github.com/Harshkumar0078/STATIC-WEBSITE-FOR-PORTFOLIO" target="_blank" class="project-btn ghost">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-num">02</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="ptag">Python</span><span class="ptag">CNN</span><span class="ptag">Gemini API</span>
+              </div>
+              <h3 class="project-title">Disease Prediction — CNN + Gemini API</h3>
+              <p class="project-desc">An AI-based disease prediction system using a Convolutional Neural Network for image classification. Integrated the Gemini API to enhance prediction insights and provide intelligent, interactive analysis of medical data.</p>
+              <div class="project-links">
+                <a href="#" class="project-btn">Live Demo ↗</a>
+                <a href="https://github.com/Harshkumar0078" target="_blank" class="project-btn ghost">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-num">03</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="ptag">REST API</span><span class="ptag">Python</span><span class="ptag">MySQL</span>
+              </div>
+              <h3 class="project-title">Library Management System</h3>
+              <p class="project-desc">A RESTful API-based Library Management System handling book inventory, user management, and transactions. Implemented full CRUD functionality with efficient database operations, ensuring scalability and smooth backend performance.</p>
+              <div class="project-links">
+                <a href="#" class="project-btn">Live Demo ↗</a>
+                <a href="https://github.com/Harshkumar0078/RESTFUL-API-DEVELOPMENT" target="_blank" class="project-btn ghost">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-num">04</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="ptag">JavaScript</span><span class="ptag">React</span><span class="ptag">WebSockets</span>
+              </div>
+              <h3 class="project-title">Real-Time Collaboration Tool</h3>
+              <p class="project-desc">A real-time collaboration platform allowing multiple users to interact simultaneously. Features live updates, a shared workspace, and instant synchronization using modern web technologies — enabling efficient teamwork and communication.</p>
+              <div class="project-links">
+                <a href="#" class="project-btn">Live Demo ↗</a>
+                <a href="https://github.com/Harshkumar0078/REAL-TIME-COLLABORATION-TOOL" target="_blank" class="project-btn ghost">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════ CONTACT ═════════════════════════════════ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-label"><span class="mono">05 /</span> Contact</div>
+        <div class="contact-grid">
+          <div class="contact-left">
+            <h2 class="section-heading">Let's build something <span class="accent">together.</span></h2>
+            <p class="contact-body">Have a project in mind, a question, or just want to say hi? My inbox is always open — I typically reply within 24 hours.</p>
+            <div class="contact-links">
+              <a href="mailto:harshkumar2007007@gmail.com" class="contact-link">
+                <span class="contact-icon">✉</span> harshkumar2007007@gmail.com
+              </a>
+              <a href="https://github.com/Harshkumar0078" target="_blank" class="contact-link">
+                <span class="contact-icon">⌥</span> github.com/Harshkumar0078
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="contact-link">
+                <span class="contact-icon">in</span> linkedin.com/in/harsh-kumar
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+                <span class="form-error" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+                <span class="form-error" id="message-error"></span>
+              </div>
+              <button type="submit" class="btn btn-primary full-width">Send Message →</button>
+              <div class="form-success" id="form-success">
+                ✓ Message sent! I'll get back to you shortly.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═════════════════════════════════ FOOTER ═════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">[</span>HK<span class="logo-bracket">]</span>
+      </a>
+      <p class="footer-copy">© 2025 Harsh Kumar. Built with ☕ &amp; curiosity.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Harshkumar0078" target="_blank" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LI</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
