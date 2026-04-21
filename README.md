@@ -24,3 +24,14 @@ From a technical perspective, the project demonstrates strong understanding of D
 Overall, this portfolio website showcases not only the developer’s projects and skills but also their ability to build polished, user-friendly, and performance-optimized web applications. It reflects a solid foundation in front-end development, attention to user experience, and the capability to implement advanced interactive features using vanilla JavaScript.
 
 <img width="1862" height="824" alt="Screenshot 2026-04-21 210119" src="https://github.com/user-attachments/assets/6254bef1-335c-4db0-976f-436daf708763" />
+<img width="1847" height="743" alt="Screenshot 2026-04-21 210029" src="https://github.com/user-attachments/assets/66f2d385-1085-43a7-aa3a-a03b70229374" />
+<img width="1854" height="574" alt="Screenshot 2026-04-21 210036" src="https://github.com/user-attachments/assets/41968302-8f4d-4bec-ae05-879516541356" />
+<img width="1806" height="626" alt="Screenshot 2026-04-21 210044" src="https://github.com/user-attachments/assets/0cce3c8a-2e75-410a-b0bb-ed3b1ebca3ea" />
+<img width="1710" height="368" alt="Screenshot 2026-04-21 210100" src="https://github.com/user-attachments/assets/3c2be4d8-3f68-4ba6-945a-4e50901b065d" />
+<img width="1787" height="638" alt="Screenshot 2026-04-21 210109" src="https://github.com/user-attachments/assets/775c796a-5728-4586-bbed-76a9f70860ae" />
+<img width="1862" height="824" alt="Screenshot 2026-04-21 210119" src="https://github.com/user-attachments/assets/54a01804-9474-4601-820d-b17a77b89786" />
+
+
+
+
+
